@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Turnover Analytics | Sovion Technologies</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <meta
+  name="description"
+  content="Employee turnover analytics project focused on attrition analysis, clustering, model evaluation, and retention insights using HR data, machine learning, and predictive analytics."
+/>
+
+<meta property="og:title" content="Employee Turnover Analytics | Sovion Technologies" />
+<meta
+  property="og:description"
+  content="HR analytics project exploring employee attrition drivers, clustering, predictive modeling, and retention-focused insights."
+/>
+
+<meta name="twitter:title" content="Employee Turnover Analytics | Sovion Technologies" />
+<meta
+  name="twitter:description"
+  content="HR analytics project exploring employee attrition drivers, clustering, predictive modeling, and retention-focused insights."
+/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/project-detail.css" />
+</head>
+<body class="project-detail-page project-turnover-page">
+
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main class="project-detail-main">
+    <!-- Project Hero -->
+    <section class="project-hero">
+      <div class="container">
+        <a href="../index.html#projects" class="project-back-link">← Back to Projects</a>
+
+        <div class="project-hero-grid">
+          <div class="project-hero-content">
+            <span class="section-label">HR Analytics Project</span>
+
+            <h1 class="project-title">Employee Turnover Analytics</h1>
+
+            <p class="project-summary">
+              A machine learning project focused on understanding employee attrition at Portobello Tech by
+              analyzing workplace satisfaction, evaluations, workload, tenure, promotions, and salary patterns.
+              The project combined exploratory data analysis, clustering, class imbalance handling with SMOTE,
+              and predictive modeling to identify turnover risk and support retention planning.
+            </p>
+
+            <div class="project-meta-tags">
+              <span class="project-meta-tag">Python</span>
+              <span class="project-meta-tag">HR Analytics</span>
+              <span class="project-meta-tag">Classification</span>
+              <span class="project-meta-tag">SMOTE</span>
+              <span class="project-meta-tag">Random Forest</span>
+            </div>
+
+            <div class="project-hero-actions">
+              <a href="#overview" class="btn btn-primary">Explore Project</a>
+              <a href="../index.html#projects" class="btn btn-secondary">Back to Projects</a>
+            </div>
+          </div>
+
+          <div class="project-hero-visual">
+            <div class="project-cover-card">
+              <img
+                src="../assets/images/projects/australian_retail.png"
+                alt="Employee Turnover Analytics dashboard cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="project-detail-section" id="overview">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Overview</span>
+          <h2>Project Overview</h2>
+        </div>
+
+        <div class="project-content-card">
+          <p>
+            Portobello Tech wanted to build a smarter way to identify employees who may be at risk of leaving
+            the company. The HR team maintained employee-level records covering factors such as satisfaction,
+            last evaluation, number of projects, average monthly hours, years spent in the company, promotions,
+            work accidents, salary band, and department.
+          </p>
+
+          <p>
+            The goal of this project was to analyze the drivers of employee turnover, segment employees who left
+            into meaningful behavioral groups, handle class imbalance in the attrition label, and train machine
+            learning models capable of predicting turnover risk. The broader business objective was to help HR
+            move from reactive attrition handling to proactive employee retention planning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objectives -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Objectives</span>
+          <h2>What I Analyzed</h2>
+        </div>
+
+        <div class="project-content-card">
+          <ul class="project-bullet-list">
+            <li>Performed data quality checks to identify missing values and validate dataset readiness for analysis.</li>
+            <li>Explored the relationship between employee attrition and variables such as satisfaction, evaluation, workload, salary, tenure, and promotions.</li>
+            <li>Used clustering to group employees who left based on satisfaction level and last evaluation patterns.</li>
+            <li>Handled class imbalance in the attrition target using the SMOTE technique before model training.</li>
+            <li>Built and evaluated multiple machine learning models using cross-validation and classification metrics.</li>
+            <li>Translated analytical findings into retention-focused recommendations for high-risk employee groups.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools + Dataset -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-two-col">
+          <div class="project-info-card">
+            <span class="section-label">Tools</span>
+            <h3>Tools & Technologies</h3>
+            <ul class="project-bullet-list compact">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Scikit-learn</li>
+              <li>SMOTE</li>
+              <li>KMeans Clustering</li>
+              <li>Classification Modeling</li>
+            </ul>
+          </div>
+
+          <div class="project-info-card">
+            <span class="section-label">Dataset</span>
+            <h3>Dataset Snapshot</h3>
+            <p>
+              The dataset contains employee-level HR records used to predict whether an employee leaves the company.
+              Key fields include <strong>satisfaction level</strong>, <strong>last evaluation</strong>,
+              <strong>number of projects</strong>, <strong>average monthly hours</strong>,
+              <strong>time spent at the company</strong>, <strong>work accident</strong>,
+              <strong>promotion in the last five years</strong>, <strong>salary level</strong>,
+              <strong>department</strong>, and the target variable <strong>left</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insights -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Insights</span>
+          <h2>Key Findings</h2>
+        </div>
+
+        <div class="project-insights-grid">
+          <div class="insight-card">
+            <h3>Employee Satisfaction Was a Strong Attrition Signal</h3>
+            <p>
+              Employees with lower satisfaction levels were far more likely to leave, making satisfaction one of
+              the clearest early indicators of turnover risk in the dataset.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Attrition Was Not Random — Distinct Leaver Patterns Emerged</h3>
+            <p>
+              Clustering employees who left based on satisfaction and evaluation revealed different attrition
+              profiles, suggesting that not all turnover stems from the same workplace behavior or engagement pattern.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Workload and Time Spent in the Company Mattered</h3>
+            <p>
+              Project load, monthly working hours, and tenure showed meaningful relationships with attrition,
+              indicating that burnout, work intensity, or stagnation may be contributing to employee exits.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Class Imbalance Needed to Be Addressed Before Modeling</h3>
+            <p>
+              Because employees who left represented the minority class, SMOTE was applied to balance the training
+              data and improve the model’s ability to detect attrition cases more reliably.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Predictive Modeling Enabled Targeted Retention Planning</h3>
+            <p>
+              By combining EDA, clustering, and classification modeling, the project created a framework for
+              identifying at-risk employees and supporting targeted HR interventions instead of relying on broad,
+              one-size-fits-all retention efforts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Highlights -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Visuals</span>
+          <h2>Visual Highlights</h2>
+        </div>
+
+        <div class="project-visual-grid">
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/employee_turnover_insights.png"
+              alt="Employee attrition insights dashboard"
+            />
+          </div>
+
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/employee_turnover_keyfindings.png"
+              alt="Employee turnover retention strategy summary"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="project-detail-section project-detail-cta">
+      <div class="container">
+        <div class="project-closing-card">
+          <span class="section-label">Conclusion</span>
+          <h2>Outcome & Takeaways</h2>
+          <p>
+            This project showed how HR data can be transformed into a practical attrition intelligence system.
+            Instead of only measuring how many employees left, the analysis focused on understanding why employees
+            leave, which employee groups are most vulnerable, and how predictive modeling can support earlier action.
+            By combining exploratory analysis, clustering, imbalance handling, and machine learning, the project laid
+            the foundation for more focused retention strategies, better workforce planning, and stronger employee
+            risk monitoring.
+          </p>
+
+          <div class="project-hero-actions">
+            <a href="../index.html#projects" class="btn btn-primary">Back to Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

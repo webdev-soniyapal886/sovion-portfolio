@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Song Cohort Analysis | Sovion Technologies</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+<meta
+  name="description"
+  content="Spotify song cohort analysis project focused on exploratory analysis and clustering of songs using audio features, popularity metrics, and cohort-based music segmentation."
+/>
+
+<meta property="og:title" content="Spotify Song Cohort Analysis | Sovion Technologies" />
+<meta
+  property="og:description"
+  content="Music analytics project using Spotify song features to build meaningful cohorts through exploratory analysis and clustering."
+/>
+
+<meta name="twitter:title" content="Spotify Song Cohort Analysis | Sovion Technologies" />
+<meta
+  name="twitter:description"
+  content="Music analytics project using Spotify song features to build meaningful cohorts through exploratory analysis and clustering."
+/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/project-detail.css" />
+</head>
+<body class="project-detail-page">
+
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main class="project-detail-main">
+
+    <!-- Hero -->
+    <section class="project-hero">
+      <div class="container">
+        <a href="../index.html#projects" class="project-back-link">← Back to Projects</a>
+
+        <div class="project-hero-grid">
+          <div class="project-hero-content">
+            <span class="section-label">Music Analytics Project</span>
+
+            <h1 class="project-title">Spotify Song Cohort Analysis</h1>
+
+            <p class="project-summary">
+              Exploratory analysis and clustering of Spotify tracks to group songs into meaningful cohorts
+              based on audio characteristics, popularity patterns, and listening-related attributes. The project
+              focused on understanding song similarity and building interpretable music segments that could support
+              recommendation and personalization strategies.
+            </p>
+
+            <div class="project-meta-tags">
+              <span class="project-meta-tag">Python</span>
+              <span class="project-meta-tag">EDA</span>
+              <span class="project-meta-tag">Clustering</span>
+              <span class="project-meta-tag">Spotify Analytics</span>
+            </div>
+
+            <div class="project-hero-actions">
+              <a href="#overview" class="btn btn-primary">Explore Project</a>
+              <a href="../index.html#projects" class="btn btn-secondary">Back to Projects</a>
+            </div>
+          </div>
+
+          <div class="project-hero-visual">
+            <div class="project-cover-card">
+              <img
+                src="../assets/images/projects/spotify-cohort-cover.png"
+                alt="Spotify Song Cohort Analysis dashboard cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="project-detail-section" id="overview">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Overview</span>
+          <h2>Project Overview</h2>
+        </div>
+
+        <div class="project-content-card">
+          <p>
+            This project explored Spotify song-level data to understand how tracks can be grouped into meaningful
+            cohorts using audio and engagement-related attributes. The objective was to move beyond individual song
+            analysis and instead identify patterns across clusters of songs that share similar musical profiles.
+          </p>
+
+          <p>
+            The analysis focused on track characteristics such as danceability, energy, loudness, tempo, acousticness,
+            valence, popularity, and other audio features commonly used in music analytics. By combining exploratory
+            data analysis with unsupervised learning, the project aimed to reveal natural song segments that could be
+            useful for playlist curation, recommendation systems, and user-personalization strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Analyzed -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Objectives</span>
+          <h2>What I Analyzed</h2>
+        </div>
+
+        <div class="project-content-card">
+          <ul class="project-bullet-list">
+            <li>Performed exploratory data analysis on Spotify song attributes to understand feature distributions and overall data quality.</li>
+            <li>Studied relationships between audio variables such as energy, danceability, loudness, tempo, valence, and acousticness.</li>
+            <li>Identified patterns in popularity and track-level engagement across different song profiles.</li>
+            <li>Prepared a feature set suitable for cohort creation using song audio characteristics and relevant numerical variables.</li>
+            <li>Applied clustering techniques to group songs into similar cohorts based on shared musical attributes.</li>
+            <li>Interpreted each cohort to understand the type of songs represented by each segment and the business value of those groupings.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools + Dataset -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-two-col">
+          <div class="project-info-card">
+            <span class="section-label">Tools</span>
+            <h3>Tools & Technologies</h3>
+            <ul class="project-bullet-list compact">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Scikit-learn</li>
+              <li>EDA & Feature Analysis</li>
+              <li>Clustering / Cohort Analysis</li>
+            </ul>
+          </div>
+
+          <div class="project-info-card">
+            <span class="section-label">Dataset</span>
+            <h3>Dataset Snapshot</h3>
+            <p>
+              The dataset consists of Spotify track-level information enriched with song audio features and popularity-related
+              metrics. It includes attributes such as danceability, energy, loudness, speechiness, acousticness, instrumentalness,
+              liveness, valence, tempo, duration, and track popularity, making it suitable for both exploratory analysis and
+              unsupervised cohort creation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Findings -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Insights</span>
+          <h2>Key Findings</h2>
+        </div>
+
+        <div class="project-insights-grid">
+          <div class="insight-card">
+            <h3>Song Profiles Naturally Form Distinct Cohorts</h3>
+            <p>
+              The feature space showed that songs do not behave as one homogeneous group. Based on their audio signatures,
+              tracks can be segmented into distinct cohorts representing different musical moods, listening styles, and energy levels.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>High-Energy and Dance-Oriented Tracks Clustered Together</h3>
+            <p>
+              Songs with stronger danceability, higher energy, and louder production tended to appear together, indicating a
+              cohort aligned with upbeat, performance-driven, and commercially active listening patterns.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Acoustic / Calm Tracks Formed a Separate Segment</h3>
+            <p>
+              Tracks with higher acousticness, softer energy, and more relaxed emotional tone showed a different behavioral
+              profile from energetic songs, highlighting the presence of mood-based segmentation within the catalog.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Popularity Alone Was Not Enough to Explain Similarity</h3>
+            <p>
+              While popularity added context, the clustering structure was driven more strongly by audio features than by
+              a single engagement metric. Songs with similar sonic properties could belong to the same cohort even when
+              popularity levels differed.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Cohorts Can Support Better Recommendation Logic</h3>
+            <p>
+              Instead of recommending tracks purely by artist or genre labels, cohort-based grouping provides a more behavior-aware
+              view of the catalog. This can improve playlist generation, music discovery, and personalized listening journeys.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Highlights -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Visuals</span>
+          <h2>Visual Highlights</h2>
+        </div>
+
+        <div class="project-visual-grid">
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/spotify.png"
+              alt="Spotify cohort analysis dashboard visual"
+            />
+          </div>
+
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/spotify-cohort-segmentation-summary.png"
+              alt="Spotify song cohort segmentation summary"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="project-detail-section project-detail-cta">
+      <div class="container">
+        <div class="project-closing-card">
+          <span class="section-label">Conclusion</span>
+          <h2>Outcome & Takeaways</h2>
+          <p>
+            This project demonstrated how Spotify song data can be transformed into meaningful music cohorts using exploratory
+            analysis and clustering. By studying audio features and grouping similar tracks together, the analysis uncovered
+            interpretable segments that reflect different listening experiences and musical styles. The outcome shows how
+            cohort-based thinking can support smarter recommendation systems, playlist personalization, and more structured
+            music catalog exploration.
+          </p>
+
+          <div class="project-hero-actions">
+            <a href="../index.html#projects" class="btn btn-primary">Back to Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

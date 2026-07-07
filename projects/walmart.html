@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walmart Sales Analysis | Sovion Technologies</title>
+<meta
+  name="description"
+  content="Walmart sales analysis project focused on store-level sales trends, holiday impact, quarterly growth, and demand forecasting using Python, EDA, and machine learning techniques."
+/>
+
+<meta property="og:title" content="Walmart Sales Analysis | Sovion Technologies" />
+<meta
+  property="og:description"
+  content="Store-level sales analysis and demand forecasting project exploring holiday impact, quarterly growth, and retail performance patterns."
+/>
+
+<meta name="twitter:title" content="Walmart Sales Analysis | Sovion Technologies" />
+<meta
+  name="twitter:description"
+  content="Store-level sales analysis and demand forecasting project exploring holiday impact, quarterly growth, and retail performance patterns."
+/>
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/project-detail.css" />
+</head>
+<body class="project-detail-page">
+
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main class="project-detail-main">
+    <!-- Project Hero -->
+    <section class="project-hero">
+      <div class="container">
+        <a href="../index.html#projects" class="project-back-link">← Back to Projects</a>
+
+        <div class="project-hero-grid">
+          <div class="project-hero-content">
+            <span class="section-label">Retail Analytics Project</span>
+
+            <h1 class="project-title">Walmart Sales Analysis</h1>
+
+            <p class="project-summary">
+              Exploratory analysis of Walmart’s multi-store sales data to uncover weekly sales patterns,
+              seasonal demand shifts, holiday impact, and store-level performance trends across 45 retail
+              locations, followed by a baseline demand forecasting model for Store 1.
+            </p>
+
+            <div class="project-meta-tags">
+              <span class="project-meta-tag">Python</span>
+              <span class="project-meta-tag">EDA</span>
+              <span class="project-meta-tag">Retail Analytics</span>
+              <span class="project-meta-tag">Linear Regression</span>
+            </div>
+
+            <div class="project-hero-actions">
+              <a href="#overview" class="btn btn-primary">Explore Project</a>
+              <a href="../index.html#projects" class="btn btn-secondary">Back to Projects</a>
+            </div>
+          </div>
+
+          <div class="project-hero-visual">
+            <div class="project-cover-card">
+              <img
+                src="../assets/images/projects/walmart_dashboard.png"
+                alt="Walmart Sales Analysis dashboard cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="project-detail-section" id="overview">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Overview</span>
+          <h2>Project Overview</h2>
+        </div>
+
+        <div class="project-content-card">
+          <p>
+            This project analyzes historical Walmart sales data across 45 stores to understand how weekly
+            sales vary over time, across store locations, and during key holiday periods. The objective was
+            to uncover meaningful retail performance patterns and identify business insights that can support
+            better demand planning and inventory decisions.
+          </p>
+
+          <p>
+            In addition to exploratory data analysis, the project also included a baseline demand forecasting
+            exercise for Store 1 using Linear Regression. The model used time-based and macroeconomic features
+            such as CPI, unemployment, fuel price, and temperature to evaluate whether these factors could help
+            explain weekly sales behavior.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objectives -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Objectives</span>
+          <h2>What I Analyzed</h2>
+        </div>
+
+        <div class="project-content-card">
+          <ul class="project-bullet-list">
+            <li>Identified the Walmart store with the highest total sales across the dataset.</li>
+            <li>Measured store-level sales volatility using standard deviation and coefficient of variation.</li>
+            <li>Compared Q2 and Q3 2012 sales to identify stores with stronger quarterly growth.</li>
+            <li>Analyzed holiday-week sales against non-holiday sales to understand promotional and seasonal impact.</li>
+            <li>Created monthly and semester-level sales views to study seasonality and long-term demand patterns.</li>
+            <li>Built a baseline demand forecasting model for Store 1 using date-driven and economic variables.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools + Dataset -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-two-col">
+          <div class="project-info-card">
+            <span class="section-label">Tools</span>
+            <h3>Tools & Technologies</h3>
+            <ul class="project-bullet-list compact">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Scikit-learn</li>
+              <li>Exploratory Data Analysis</li>
+              <li>Linear Regression</li>
+            </ul>
+          </div>
+
+          <div class="project-info-card">
+            <span class="section-label">Dataset</span>
+            <h3>Dataset Snapshot</h3>
+            <p>
+              The dataset contains weekly Walmart store sales records from <strong>5 Feb 2010 to 1 Nov 2012</strong>
+              for <strong>45 stores</strong>. Each record includes weekly sales along with contextual variables such as
+              holiday flag, temperature, fuel price, CPI, and unemployment. This made it possible to analyze both
+              store performance trends and the potential effect of external economic conditions on retail demand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insights -->
+    <section class="project-detail-section project-detail-alt">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Insights</span>
+          <h2>Key Findings</h2>
+        </div>
+
+        <div class="project-insights-grid">
+          <div class="insight-card">
+            <h3>Store 20 Generated the Highest Sales</h3>
+            <p>
+              Among all 45 stores, <strong>Store 20</strong> recorded the highest total sales at
+              <strong>$301.4M</strong>, making it the strongest performer in the dataset from a revenue standpoint.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Store 14 Showed the Highest Sales Volatility</h3>
+            <p>
+              <strong>Store 14</strong> had the highest standard deviation in weekly sales, indicating that its
+              performance fluctuated more heavily than other stores and may require closer forecasting attention.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Store 7 Had the Best Q3 2012 Growth</h3>
+            <p>
+              When comparing Q2 and Q3 sales in 2012, <strong>Store 7</strong> showed the strongest quarterly
+              growth with an increase of <strong>13.33%</strong>, while several other stores recorded declines.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Holiday Weeks Did Not Uniformly Outperform</h3>
+            <p>
+              Holiday periods did not consistently exceed the average non-holiday sales level across all stores,
+              suggesting that promotional timing and holiday demand effects may vary significantly by store and period.
+            </p>
+          </div>
+
+          <div class="insight-card">
+            <h3>Baseline Forecasting Model Had Limited Predictive Power</h3>
+            <p>
+              A Linear Regression model was built for <strong>Store 1</strong> using time and economic variables.
+              However, the model produced a weak <strong>R² score of approximately -0.03</strong>, indicating that
+              a simple linear model was not sufficient to capture Walmart’s sales behavior accurately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Highlights -->
+    <section class="project-detail-section">
+      <div class="container">
+        <div class="project-section-head">
+          <span class="section-label">Visuals</span>
+          <h2>Visual Highlights</h2>
+        </div>
+
+        <div class="project-visual-grid">
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/walmart_weekly_sales_trend.png"
+              alt="Walmart sales performance insights dashboard"
+            />
+          </div>
+
+          <div class="project-visual-card">
+            <img
+              src="../assets/images/projects/walmart_sales_analysis.png"
+              alt="Walmart business summary and recommendations"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="project-detail-section project-detail-cta">
+      <div class="container">
+        <div class="project-closing-card">
+          <span class="section-label">Conclusion</span>
+          <h2>Outcome & Takeaways</h2>
+          <p>
+            This project combined exploratory retail analytics with a baseline forecasting exercise to understand
+            how Walmart sales vary across stores, seasons, and holiday periods. The analysis surfaced meaningful
+            store-level performance patterns, highlighted sales volatility across locations, and showed that holiday
+            effects are not always straightforward. The forecasting step also revealed that simple linear modeling is
+            not enough for accurate demand prediction in this type of retail data, pointing toward the need for more
+            advanced time-series or machine learning approaches.
+          </p>
+
+          <div class="project-hero-actions">
+            <a href="../index.html#projects" class="btn btn-primary">Back to Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,643 @@
+/* =========================================
+   HEADER FINAL POLISH
+========================================= */
+.site-header {
+  background: linear-gradient(180deg, #8ea6e4 0%, #89a0de 100%);
+}
+
+/* =========================================================
+   PROJECT DETAIL PAGE
+========================================================= */
+
+.project-detail-page {
+  background: #f5f8ff;
+  color: #0f172a;
+}
+
+.project-detail-main {
+  padding-top: 110px;
+}
+
+/* =========================================================
+   SHARED
+========================================================= */
+
+.project-detail-section {
+  padding: 100px 0;
+}
+
+.project-detail-alt {
+  background: linear-gradient(180deg, #f8fbff 0%, #edf4ff 100%);
+}
+
+.project-section-head {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.project-section-head h2 {
+  margin: 12px 0 0;
+  font-size: clamp(2.15rem, 3.2vw, 3.2rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.project-detail-page .section-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: rgba(58, 115, 234, 0.1);
+  color: #2f63e0;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.project-content-card,
+.project-info-card,
+.insight-card,
+.project-closing-card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  border-radius: 28px;
+}
+
+.project-content-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px 46px;
+}
+
+.project-content-card p:last-child {
+  margin-bottom: 0;
+}
+
+.project-content-card p,
+.project-info-card p,
+.insight-card p,
+.project-closing-card p {
+  color: #5f6f8f;
+  font-size: 1.06rem;
+  line-height: 1.9;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.project-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 52px 0 92px;
+  background:
+    radial-gradient(circle at top left, rgba(40, 95, 225, 0.12), transparent 34%),
+    radial-gradient(circle at top right, rgba(74, 136, 244, 0.16), transparent 30%),
+    linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+}
+
+.project-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+  color: #2f63e0;
+  font-weight: 700;
+  font-size: 0.98rem;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.project-back-link:hover {
+  color: #1e4fd1;
+}
+
+.project-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 52px;
+  align-items: center;
+}
+
+.project-title {
+  margin: 18px 0 16px;
+  font-size: clamp(2.9rem, 4vw, 4.8rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+  color: #0f172a;
+}
+
+.project-summary {
+  max-width: 700px;
+  margin: 0 0 30px;
+  color: #5f6f8f;
+  font-size: 1.12rem;
+  line-height: 1.9;
+}
+
+.project-meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.project-meta-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: rgba(58, 115, 234, 0.08);
+  border: 1px solid rgba(58, 115, 234, 0.12);
+  color: #2b58d3;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.project-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.project-hero-actions .btn {
+  min-width: 185px;
+  justify-content: center;
+}
+
+.project-cover-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #0d1b3d 0%, #111f47 100%);
+  box-shadow: 0 28px 70px rgba(27, 69, 170, 0.22);
+  padding: 16px;
+}
+
+.project-cover-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+/* Walmart / project detail secondary button fix */
+.project-detail-page .btn-secondary {
+  background: #ffffff;
+  color: #1f4fd6;
+  border: 1.5px solid rgba(47, 99, 224, 0.18);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.project-detail-page .btn-secondary:hover {
+  background: #f2f7ff;
+  color: #1748cc;
+  border-color: rgba(47, 99, 224, 0.28);
+  transform: translateY(-2px);
+}
+/* =========================================================
+   LISTS / INFO
+========================================================= */
+
+.project-bullet-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #5f6f8f;
+}
+
+.project-bullet-list li {
+  margin-bottom: 14px;
+  line-height: 1.85;
+  font-size: 1.02rem;
+}
+
+.project-bullet-list li:last-child {
+  margin-bottom: 0;
+}
+
+.project-bullet-list.compact li {
+  margin-bottom: 10px;
+}
+
+.project-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.project-info-card {
+  padding: 36px 34px;
+}
+
+.project-info-card h3 {
+  margin: 14px 0 18px;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  color: #0f172a;
+}
+
+/* =========================================================
+   INSIGHTS
+========================================================= */
+
+.project-insights-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.project-insights-grid .insight-card:nth-child(-n + 3) {
+  grid-column: span 2;
+}
+
+.project-insights-grid .insight-card:nth-child(4),
+.project-insights-grid .insight-card:nth-child(5) {
+  grid-column: span 3;
+}
+
+.insight-card {
+  padding: 32px 30px;
+}
+
+.insight-card h3 {
+  margin: 0 0 14px;
+  font-size: 1.32rem;
+  line-height: 1.22;
+  color: #0f172a;
+}
+
+/* =========================================================
+   VISUALS
+========================================================= */
+
+.project-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.project-visual-card {
+  overflow: hidden;
+  border-radius: 28px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  min-height: 360px;
+  display: flex;
+}
+
+.project-visual-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.visual-placeholder {
+  min-height: 360px;
+  display: flex;
+}
+
+.visual-placeholder-inner {
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  text-align: center;
+  color: #6f7f9c;
+  font-weight: 600;
+  background:
+    linear-gradient(135deg, rgba(74, 136, 244, 0.08), rgba(47, 99, 224, 0.05)),
+    #ffffff;
+}
+
+/* =========================================================
+   CLOSING
+========================================================= */
+
+.project-detail-cta {
+  padding-top: 24px;
+  padding-bottom: 120px;
+}
+
+.project-closing-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 52px 46px;
+  text-align: center;
+}
+
+.project-closing-card h2 {
+  margin: 14px 0 18px;
+  font-size: clamp(2.1rem, 3vw, 3rem);
+  line-height: 1.12;
+  color: #0f172a;
+}
+
+.project-closing-card .project-hero-actions {
+  justify-content: center;
+  margin-top: 28px;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1199px) {
+  .project-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .project-hero-content {
+    max-width: 820px;
+  }
+
+  .project-hero-visual {
+    max-width: 900px;
+  }
+
+  .project-section-head {
+    max-width: 820px;
+  }
+
+  .project-insights-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-insights-grid .insight-card:nth-child(-n + 3),
+  .project-insights-grid .insight-card:nth-child(4),
+  .project-insights-grid .insight-card:nth-child(5) {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .project-detail-main {
+    padding-top: 96px;
+  }
+
+  .project-detail-section {
+    padding: 76px 0;
+  }
+
+  .project-content-card,
+  .project-info-card,
+  .insight-card,
+  .project-closing-card {
+    border-radius: 24px;
+  }
+
+  .project-content-card {
+    padding: 34px 28px;
+  }
+
+  .project-two-col,
+  .project-insights-grid,
+  .project-visual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-closing-card {
+    padding: 40px 30px;
+  }
+
+  .project-visual-card,
+  .visual-placeholder,
+  .visual-placeholder-inner {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-detail-main {
+    padding-top: 88px;
+  }
+
+  .project-hero {
+    padding: 34px 0 64px;
+  }
+
+  .project-back-link {
+    margin-bottom: 24px;
+    font-size: 0.92rem;
+  }
+
+  .project-title {
+    margin: 16px 0 14px;
+    font-size: 2.45rem;
+    line-height: 1.03;
+  }
+
+  .project-summary {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 24px;
+  }
+
+  .project-meta-tags {
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .project-meta-tag {
+    padding: 10px 16px;
+    font-size: 0.88rem;
+  }
+
+  .project-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-hero-actions .btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .project-cover-card {
+    padding: 12px;
+    border-radius: 24px;
+  }
+
+  .project-cover-card img {
+    border-radius: 18px;
+  }
+
+  .project-detail-section {
+    padding: 60px 0;
+  }
+
+  .project-section-head {
+    margin-bottom: 26px;
+  }
+
+  .project-section-head h2 {
+    font-size: 1.95rem;
+  }
+
+  .project-content-card,
+  .project-info-card,
+  .insight-card,
+  .project-closing-card {
+    padding: 24px 20px;
+    border-radius: 22px;
+  }
+
+  .project-content-card p,
+  .project-info-card p,
+  .insight-card p,
+  .project-closing-card p {
+    font-size: 0.98rem;
+    line-height: 1.8;
+  }
+
+  .project-info-card h3,
+  .insight-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-bullet-list li {
+    margin-bottom: 12px;
+    line-height: 1.75;
+    font-size: 0.98rem;
+  }
+
+  .project-visual-card,
+  .visual-placeholder,
+  .visual-placeholder-inner {
+    min-height: 220px;
+  }
+
+  .project-detail-cta {
+    padding-bottom: 82px;
+    padding-top:0;
+  }
+}
+
+@media (max-width: 479px) {
+  .project-title {
+    font-size: 2.00rem;
+  }
+
+  .project-summary {
+    font-size: 0.95rem;
+  }
+
+  .project-detail-page .section-label {
+    padding: 9px 15px;
+    font-size: 0.82rem;
+  }
+
+  .project-meta-tag {
+    font-size: 0.82rem;
+  }
+
+  .project-content-card,
+  .project-info-card,
+  .insight-card,
+  .project-closing-card {
+    padding: 22px 18px;
+  }
+
+  .project-section-head h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* =========================================================
+   EMPLOYEE TURNOVER DETAIL PAGE PATCH
+   Add at the end of project-detail.css
+========================================================= */
+
+.project-turnover-page .project-hero-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr);
+  gap: 56px;
+}
+
+.project-turnover-page .project-cover-card {
+  padding: 12px;
+  border-radius: 30px;
+}
+
+.project-turnover-page .project-cover-card img {
+  width: 100%;
+  border-radius: 22px;
+}
+
+.project-turnover-page .project-summary {
+  max-width: 760px;
+}
+
+.project-turnover-page .project-insights-grid {
+  gap: 22px;
+}
+
+.project-turnover-page .insight-card {
+  padding: 28px 24px;
+}
+
+.project-turnover-page .insight-card h3 {
+  font-size: 1.18rem;
+  line-height: 1.28;
+  margin-bottom: 12px;
+}
+
+.project-turnover-page .insight-card p {
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.project-turnover-page .project-visual-grid {
+  gap: 24px;
+}
+
+.project-turnover-page .project-visual-card {
+  min-height: 340px;
+}
+
+.project-turnover-page .project-visual-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 1199px) {
+  .project-turnover-page .project-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+@media (max-width: 991px) {
+  .project-turnover-page .project-visual-card {
+    min-height: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .project-turnover-page .insight-card {
+    padding: 24px 20px;
+  }
+
+  .project-turnover-page .insight-card h3 {
+    font-size: 1.12rem;
+  }
+
+  .project-turnover-page .insight-card p {
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  .project-turnover-page .project-visual-card {
+    min-height: 220px;
+  }
+}
