@@ -1746,3 +1746,43 @@
     display: none;
   }
 }
+
+@media (max-width: 767px) {
+  .projects-slider {
+    padding: 0;
+  }
+
+  .projects-nav {
+    display: none;
+  }
+
+  .projects-track-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 0 16px 10px;
+  }
+
+  .projects-track {
+    display: flex;
+    gap: 16px;
+    transform: none !important;
+  }
+
+  .project-card {
+    flex: 0 0 88%;
+    min-width: 88%;
+    max-width: 88%;
+    scroll-snap-align: center;
+    margin: 0;
+  }
+
+  .projects-track-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects-track-wrapper {
+    scrollbar-width: none;
+  }
+}
